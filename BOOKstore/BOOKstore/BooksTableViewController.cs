@@ -17,8 +17,8 @@ namespace BOOKstore
                 Author = "J.K. Rowling",
                 Name = "Harry Potter and the Sorcerer's Stone",
                 Publisher = "Bloomsbury",
-                Year = 1997
-                ImagePath =     
+                Year = 1997,
+                ImagePath = "Images/h1.jpg"    
 
             });
 			bookList.Add(new Book()
@@ -26,15 +26,16 @@ namespace BOOKstore
 				Author = "J.K. Rowling",
 				Name = "Harry Potter and the Chamber of Secrets",
 				Publisher = "Bloomsbury",
-				Year = 1998
+				Year = 1998,
+                ImagePath = "Images/h2.jpg"
 			});
 			bookList.Add(new Book()
 			{
 				Author = "J.K. Rowling",
 				Name = "Harry Potter and the Prisoner of Azkaban",
 				Publisher = "Bloomsbury",
-				Year = 1999
-
+				Year = 1999,
+                ImagePath = "Images/h3.jpg"
 			});
         }
 

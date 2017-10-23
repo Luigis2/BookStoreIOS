@@ -70,7 +70,7 @@
             <objects>
                 <navigationController id="1270" sceneMemberID="viewController" customClass="navigationController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="1272">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <rect key="frame" x="-160" y="20" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -89,14 +89,14 @@
                         <viewControllerLayoutGuide type="bottom" id="1396"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="1399">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="548"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="1402" translatesAutoresizingMaskIntoConstraints="NO">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="1402" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
                                 <rect key="frame" x="42" y="125" width="352" height="486"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Book Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="1403" translatesAutoresizingMaskIntoConstraints="NO">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Book Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="1403" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
                                 <rect key="frame" x="42" y="636" width="352" height="25"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -131,4 +131,9 @@
         <simulatedScreenMetrics key="destination" type="retina55"/>
         <simulatedOrientationMetrics key="orientation"/>
     </simulatedMetricsContainer>
+    <resources>
+        <image name="Images/h1.jpg" width="265" height="377"/>
+        <image name="Images/h2.jpg" width="420" height="644"/>
+        <image name="Images/h3.jpg" width="325" height="499"/>
+    </resources>
 </document>

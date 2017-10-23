@@ -14,6 +14,7 @@ namespace BOOKstore
         public override void ViewWillAppear(bool animated)
         {
             bookNameLabel.Text = selectedBook.Name;
+            bookImageView.Image = UIImage.FromFile(selectedBook.ImagePath);
         }
     }
 }

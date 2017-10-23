@@ -3,7 +3,7 @@
 /Users/luigis2/Desktop/repos Official/BookStoreIOS/BOOKstore/BOOKstore/obj/iPhoneSimulator/Debug/BOOKstore.csproj.CoreCompileInputs.cache
 /Users/luigis2/Desktop/repos Official/BookStoreIOS/BOOKstore/BOOKstore/obj/iPhoneSimulator/Debug/BOOKstore.exe
 /Users/luigis2/Desktop/repos Official/BookStoreIOS/BOOKstore/BOOKstore/obj/iPhoneSimulator/Debug/BOOKstore.pdb
-/Users/luigis2/Desktop/repos Official/BookStoreIOS/BOOKstore/BOOKstore/obj/iPhoneSimulator/Debug/device-builds/iphone7.1-10.3.1/ibtool/_BundleResourceWithLogicalName.items
-/Users/luigis2/Desktop/repos Official/BookStoreIOS/BOOKstore/BOOKstore/obj/iPhoneSimulator/Debug/device-builds/iphone7.1-10.3.1/actool/_PartialAppManifest.items
-/Users/luigis2/Desktop/repos Official/BookStoreIOS/BOOKstore/BOOKstore/obj/iPhoneSimulator/Debug/device-builds/iphone7.1-10.3.1/actool/_BundleResourceWithLogicalName.items
-/Users/luigis2/Desktop/repos Official/BookStoreIOS/BOOKstore/BOOKstore/obj/iPhoneSimulator/Debug/device-builds/iphone7.1-10.3.1/optimized/
+/Users/luigis2/Desktop/repos Official/BookStoreIOS/BOOKstore/BOOKstore/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3.1/ibtool/_BundleResourceWithLogicalName.items
+/Users/luigis2/Desktop/repos Official/BookStoreIOS/BOOKstore/BOOKstore/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3.1/actool/_PartialAppManifest.items
+/Users/luigis2/Desktop/repos Official/BookStoreIOS/BOOKstore/BOOKstore/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3.1/actool/_BundleResourceWithLogicalName.items
+/Users/luigis2/Desktop/repos Official/BookStoreIOS/BOOKstore/BOOKstore/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3.1/optimized/
