@@ -51,6 +51,7 @@
                                     <outlet property="bookAuthorLabel" destination="802" id="name-outlet-802"/>
                                     <outlet property="bookYearLabel" destination="803" id="name-outlet-803"/>
                                     <outlet property="bookPublisherLabel" destination="804" id="name-outlet-804"/>
+                                    <segue id="1594" destination="1398" kind="show" identifier="DetailsSegue"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -59,10 +60,71 @@
                             <outlet property="delegate" destination="198" id="201"/>
                         </connections>
                     </tableView>
+                    <navigationItem title="Books" id="1345" key="navigationItem"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="204" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-116" y="15"/>
+        </scene>
+        <scene sceneID="1269">
+            <objects>
+                <navigationController id="1270" sceneMemberID="viewController" customClass="navigationController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="1272">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue id="1346" destination="198" kind="relationship" relationship="rootViewController"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1273" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-591" y="15"/>
+        </scene>
+        <scene sceneID="1397">
+            <objects>
+                <viewController id="1398" sceneMemberID="viewController" customClass="DetailsViewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1395"/>
+                        <viewControllerLayoutGuide type="bottom" id="1396"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="1399">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="548"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="1402" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="42" y="125" width="352" height="486"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Book Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="1403" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="42" y="636" width="352" height="25"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="1402"/>
+                                <exclude reference="1403"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="1402"/>
+                                <include reference="1403"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="bookImageView" destination="1402" id="name-outlet-1402"/>
+                        <outlet property="DetailsViewControllerz" destination="1399" id="name-outlet-1399"/>
+                        <outlet property="bookNameLabel" destination="1403" id="name-outlet-1403"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1400" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="344" y="14"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

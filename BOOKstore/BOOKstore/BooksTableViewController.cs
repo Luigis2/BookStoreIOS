@@ -15,9 +15,10 @@ namespace BOOKstore
 
             bookList.Add(new Book()    {
                 Author = "J.K. Rowling",
-                Name = "Harry Potter and the Sorerer's Stone",
+                Name = "Harry Potter and the Sorcerer's Stone",
                 Publisher = "Bloomsbury",
                 Year = 1997
+                ImagePath =     
 
             });
 			bookList.Add(new Book()
@@ -57,6 +58,21 @@ namespace BOOKstore
 
             return cell;
         }
+        public override void PrepareForSegue(UIStoryboardSegue segue, NSObject sender)
+        {
+            if (segue.Identifier == "DetailsSegue")
+            {
+                var navigationController = segue.DestinationViewController as DetailsViewController;
+
+                if (navigationController != null)
+                {
+                    var rowPath = TableView.IndexPathForSelectedRow;
+                    var selectedData = bookList[rowPath.Row];
+                    navigationController.selectedBook = selectedData;
+
+                }
+            }    
+        }
     }
 
 
@@ -66,5 +82,6 @@ namespace BOOKstore
         public string Author;
         public string Publisher;
         public int Year;
+        public string ImagePath;
     }
 }
